@@ -1,6 +1,6 @@
 import "./globals.css";
-import Link from "next/link";
-import Navbar from "@/component/Navbar";
+// import Link from "next/link";
+import Navbar from "./component/Navbar"
 
 export default function RootLayout({ children }) {
   return (
@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
      
       <Navbar/> 
   
-        <main>{children}</main>
+        {children}
        
          
 
